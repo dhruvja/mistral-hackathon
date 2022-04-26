@@ -1,5 +1,6 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
+import '../india_team/india_team_widget.dart';
 import '../match1/match1_widget.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
@@ -424,11 +425,22 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     mainAxisSize: MainAxisSize.max,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
-                                      Icon(
+                                      InkWell(
+                                      onTap: () async {
+                                        await Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (context) =>
+                                                IndiaTeamWidget(),
+                                          ),
+                                        );
+                                      },
+                                      child: Icon(
                                         Icons.double_arrow,
                                         color: Color(0xFFFFF800),
                                         size: 24,
                                       ),
+                                    ),
                                     ],
                                   ),
                                 ),
@@ -634,10 +646,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                         mainAxisSize: MainAxisSize.max,
                         children: [
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(0, 0, 2, 0),
+                            padding: EdgeInsetsDirectional.fromSTEB(0, 0, 2, 10),
                             child: Container(
                               width: MediaQuery.of(context).size.width * 0.7,
-                              height: 280,
+                              height: 350,
                               decoration: BoxDecoration(
                                 color:
                                     FlutterFlowTheme.of(context).tertiaryColor,
@@ -703,10 +715,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             ),
                           ),
                           Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(0, 0, 2, 0),
+                            padding: EdgeInsetsDirectional.fromSTEB(0, 0, 2, 10),
                             child: Container(
                               width: MediaQuery.of(context).size.width * 0.7,
-                              height: 280,
+                              height: 350,
                               decoration: BoxDecoration(
                                 color:
                                     FlutterFlowTheme.of(context).tertiaryColor,
