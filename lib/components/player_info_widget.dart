@@ -55,15 +55,22 @@ class _PlayerInfoWidgetState extends State<PlayerInfoWidget> {
                             color: Color(0xFFEEEEEE),
                             shape: BoxShape.circle,
                           ),
-                          child: Icon(
-                            Icons.person,
-                            color: Color(0xFF4B39EF),
-                            size: 24,
+                          child: Container(
+                            width: 140,
+                            height: 140,
+                            clipBehavior: Clip.antiAlias,
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                            ),
+                            child: Image.network(
+                              'https://img.olympicchannel.com/images/image/private/t_16-9_1280/primary/kz8pl2d290jqr3vpowy4',
+                              fit: BoxFit.fitHeight,
+                            ),
                           ),
                         ),
                       ),
                       Text(
-                        'Player Name',
+                        'Mandeep Singh',
                         style: FlutterFlowTheme.of(context).subtitle1.override(
                               fontFamily: 'Lexend Deca',
                               color: Color(0xFF090F13),
@@ -121,7 +128,8 @@ class _PlayerInfoWidgetState extends State<PlayerInfoWidget> {
                 children: [
                   Expanded(
                     child: AutoSizeText(
-                      'Short Description.\n,,,,,,,,,',
+                      'About',
+                      textAlign: TextAlign.start,
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'Lexend Deca',
                             color: Color(0xFF57636C),
