@@ -751,24 +751,28 @@ class _Match1WidgetState extends State<Match1Widget> {
                                   ],
                                 ),
                               ),
-                              Column(
-                                mainAxisSize: MainAxisSize.max,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        4, 0, 0, 0),
-                                    child: Text(
-                                      '0',
-                                      style: FlutterFlowTheme.of(context)
-                                          .bodyText1
-                                          .override(
-                                            fontFamily: 'Poppins',
-                                            color: Color(0xFFFFF800),
-                                          ),
+                              Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
+                                child: Column(
+                                  mainAxisSize: MainAxisSize.max,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Padding(
+                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                          4, 0, 0, 0),
+                                      child: Text(
+                                        '0',
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyText1
+                                            .override(
+                                              fontFamily: 'Poppins',
+                                              color: Color(0xFFFFF800),
+                                            ),
+                                      ),
                                     ),
-                                  ),
-                                ],
+                                  ],
+                                ),
                               ),
                             ],
                           ),
@@ -879,7 +883,7 @@ class _Match1WidgetState extends State<Match1Widget> {
                                 children: [
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        4, 0, 0, 0),
+                                        6, 0, 0, 0),
                                     child: Text(
                                       '0',
                                       style: FlutterFlowTheme.of(context)
@@ -1001,7 +1005,7 @@ class _Match1WidgetState extends State<Match1Widget> {
                                 children: [
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
-                                        4, 0, 0, 0),
+                                        24, 0, 0, 0),
                                     child: Text(
                                       '0',
                                       style: FlutterFlowTheme.of(context)
