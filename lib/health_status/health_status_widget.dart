@@ -21,7 +21,7 @@ class _HealthStatusWidgetState extends State<HealthStatusWidget> {
       appBar: PreferredSize(
         preferredSize: Size.fromHeight(50),
         child: AppBar(
-          backgroundColor: FlutterFlowTheme.of(context).primaryColor,
+          backgroundColor: Color(0xFF03054F),
           automaticallyImplyLeading: true,
           actions: [],
           elevation: 4,

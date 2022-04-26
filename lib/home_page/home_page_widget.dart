@@ -308,7 +308,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         mainAxisSize: MainAxisSize.max,
                                         children: [
                                           Text(
-                                            '1st Match, World Cup 2022',
+                                            '2nd Match, World Cup 2022',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
