@@ -20,7 +20,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
-      backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+      backgroundColor: FlutterFlowTheme.of(context).primaryBtnText,
       body: SafeArea(
         child: GestureDetector(
           onTap: () => FocusScope.of(context).unfocus(),
@@ -175,7 +175,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  'India',
+                                                  'India               0',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -213,7 +213,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               Text(
-                                                'Australia',
+                                                'Australia        3',
                                                 style: FlutterFlowTheme.of(
                                                         context)
                                                     .bodyText1
@@ -231,7 +231,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                       mainAxisSize: MainAxisSize.max,
                                       children: [
                                         Text(
-                                          'Fri, 23 Jul - 3.00 PM',
+                                          'Live',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1
                                               .override(
