@@ -3,14 +3,14 @@ import '../flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class PlayerWidget extends StatefulWidget {
-  const PlayerWidget({Key key}) : super(key: key);
+class Match1Widget extends StatefulWidget {
+  const Match1Widget({Key key}) : super(key: key);
 
   @override
-  _PlayerWidgetState createState() => _PlayerWidgetState();
+  _Match1WidgetState createState() => _Match1WidgetState();
 }
 
-class _PlayerWidgetState extends State<PlayerWidget> {
+class _Match1WidgetState extends State<Match1Widget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override

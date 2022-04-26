@@ -1,5 +1,6 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
+import '../match1/match1_widget.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -253,10 +254,21 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                   mainAxisSize: MainAxisSize.max,
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Icon(
-                                      Icons.double_arrow,
-                                      color: Color(0xFFFFF800),
-                                      size: 24,
+                                    InkWell(
+                                      onTap: () async {
+                                        await Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (context) =>
+                                                Match1Widget(),
+                                          ),
+                                        );
+                                      },
+                                      child: Icon(
+                                        Icons.double_arrow,
+                                        color: Color(0xFFFFF800),
+                                        size: 24,
+                                      ),
                                     ),
                                   ],
                                 ),
