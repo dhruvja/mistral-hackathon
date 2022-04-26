@@ -545,7 +545,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               Image.network(
-                                                'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/1200px-Flag_of_Pakistan.svg.png',
+                                                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsfc13rT80KA8yfxEN22OWjn3oH4La991bAZl6EWEbjiQCCBFhQjFZ9X3gjD0C9vMv_aA&usqp=CAU',
                                                 width: 30,
                                                 height: 30,
                                                 fit: BoxFit.fitWidth,
@@ -676,7 +676,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               'Belgium\'s Red Lions brushed aside \nSouth Africa, winning 9-4, while the Netherlands beat Canada 4-2, hosts Japan earned their first point of the tournament with a 2-2 draw against New Zealand and India defeated Spain 3-0.',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1,
+                                                      .bodyText1
+                                                      .override(
+                                                        fontFamily: 'Open Sans',
+                                                      ),
                                             ),
                                           ),
                                         ),
@@ -742,7 +745,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               'Sandeep Singh: Proudly Celebrate \nPunjabis & Sikhs Of India\'s Olympic \nField Hockey Team\n\nWhen Punjabis are contributing such \na substantial amount to the national team.',
                                               style:
                                                   FlutterFlowTheme.of(context)
-                                                      .bodyText1,
+                                                      .bodyText1
+                                                      .override(
+                                                        fontFamily: 'Open Sans',
+                                                      ),
                                             ),
                                           ),
                                         ),
